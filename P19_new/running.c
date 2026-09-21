@@ -15,7 +15,7 @@ int main() {
 
     /*
      - Infinite loop keeps the process continuously active.
-     - We deliberately do not use sleep() here because sleep() would put the process into the sleeping state.
+     - sleep not used here because sleep() would put the process into the sleeping state.
      */
     while (1) {
         // Perform some computation so the process continuously uses the CPU.
