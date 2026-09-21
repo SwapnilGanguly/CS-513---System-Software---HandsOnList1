@@ -62,11 +62,5 @@ lrwx------ 1 swapnil swapnil 64 Sep 17 20:41 4 -> /home/swapnil/SoftwareSystems/
 lrwx------ 1 swapnil swapnil 64 Sep 17 20:41 5 -> /home/swapnil/SoftwareSystems/P5/file3.txt
 lrwx------ 1 swapnil swapnil 64 Sep 17 20:41 6 -> /home/swapnil/SoftwareSystems/P5/file4.txt
 lrwx------ 1 swapnil swapnil 64 Sep 17 20:41 7 -> /home/swapnil/SoftwareSystems/P5/file5.txt
-swapnil@swapnil-Latitude-5400:~/SoftwareSystems/P5$ ps
-    PID TTY          TIME CMD
-  15323 pts/0    00:00:00 bash
-  22310 pts/0    00:00:00 a.out
-  24067 pts/0    00:00:00 a.out
-  24096 pts/0    00:00:00 ps
 
 */
