@@ -1,0 +1,20 @@
+
+1. Create the following types of a files using (i) shell command (ii) system call
+    a. soft link (symlink system call)
+    b. hard link (link system call) 
+    c. FIFO (mkfifo Library Function or mknod system call) *
+
+
+
+Terminal 1:
+swapnil@swapnil-Latitude-5400:~/SoftwareSystems/P1$ mkfifo myfifo
+swapnil@swapnil-Latitude-5400:~/SoftwareSystems/P1$ ls -l myfifo
+prw-rw-r-- 1 swapnil swapnil 0 Sep 19 12:56 myfifo
+swapnil@swapnil-Latitude-5400:~/SoftwareSystems/P1$ cat < myfifo
+
+Terminal 2:
+swapnil@swapnil-Latitude-5400:~/SoftwareSystems/P1$ echo "Hello from FIFO" > myfifo
+
+Terminal 1:
+Hello from FIFO
+
