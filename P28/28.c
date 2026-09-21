@@ -7,7 +7,7 @@ int main() {
     int min_priority;
     int max_priority;
 
-    // Find the minimum real-time priority for SCHED_FIFO.
+    // Find the minimum real-time priority for SCHED_RR.
     min_priority = sched_get_priority_min(SCHED_RR);
 
     if (min_priority == -1) {
@@ -15,7 +15,7 @@ int main() {
         return 1;
     }
 
-    // Find the maximum real-time priority for SCHED_FIFO.
+    // Find the maximum real-time priority for SCHED_RR.
     max_priority = sched_get_priority_max(SCHED_RR);
 
     if (max_priority == -1) {
